@@ -14,11 +14,18 @@ import Header from "./Header"
 
 function MyApp() {
   const date = new Date();
-  let hours = date.getHours();
-  hours = hours % 12;
+  const hours = date.getHours();
+  let timeOfDay
+  if (hours < 12) {
+    timeOfDay = "morning";
+  } else if (hours < 17) {
+    timeOfDay = "afternoon";
+  } else {
+    timeOfDay = "night";
+  }
 
   return (
-    <h1>The time right now is {hours} O'Clock.</h1>
+    <h1>It is currently {timeOfDay}.</h1>
   )
 }
 
