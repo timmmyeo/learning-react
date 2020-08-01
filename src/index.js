@@ -4,5 +4,4 @@ import ReactDOM from "react-dom"
 import MyApp from "./components/MyApp.js"
 
 
-ReactDOM.render(<MyApp />,document.getElementById("root")
-);
+ReactDOM.render(<MyApp />, document.getElementById("root"));

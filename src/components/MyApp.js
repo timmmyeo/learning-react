@@ -1,9 +1,14 @@
 import React from "react"
 import Items from "./Items"
+import Header from "./Header"
 
 function MyApp() {
   return (
-    <Items />
+    <div>
+      <Header />
+      <Items />
+    </div>
+    
   )
 }
 
