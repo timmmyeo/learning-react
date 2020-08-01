@@ -3,15 +3,19 @@ import ReactDOM from "react-dom"
 
 // ReactDOM.render(<h1>Hello World!</h1>, document.getElementById("root"));
 
-function MyApp() {
+function MyInfo() {
   return (
-  <ul>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ul> 
+  <div>
+    <h1>My name is Tim</h1>
+    <p>This is a test paragraph</p>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </div> 
   )
 }
 
-ReactDOM.render(<MyApp />,document.getElementById("root")
+ReactDOM.render(<MyInfo />,document.getElementById("root")
 );
