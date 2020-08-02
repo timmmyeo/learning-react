@@ -21,15 +21,4 @@ class App extends React.Component {
   }
 }
 
-// function App() {
-//   const todoList = todosData.map(todo => <Item id={todo.id} todo={todo}/>)
-//   return (
-//     <div>
-//       <Header />
-//       {todoList}
-//     </div>
-    
-//   )
-// }
-
 export default App
