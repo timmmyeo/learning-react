@@ -6,7 +6,7 @@ Challenge:
 
 */
 
-import React from "react"
+import React, {Component} from "react"
 
 class App extends React.Component {
   render() {
@@ -29,7 +29,7 @@ class App extends React.Component {
 //     )
 // }
 
-class Header extends React.Component {
+class Header extends Component {
   render() {
         return (
         <header>
@@ -48,7 +48,7 @@ class Header extends React.Component {
 //     )
 // }
 
-class Greeting extends React.Component {
+class Greeting extends Component {
   render() {
     const date = new Date()
     const hours = date.getHours()
