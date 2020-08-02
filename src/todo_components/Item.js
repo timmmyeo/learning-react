@@ -1,13 +1,13 @@
 import React from "react"
 
-function Item() {
+function Item(props) {
   return (
     <div>
-    <label class="container">One
+    <label class="container">{props.todo.text}
       <input type="checkbox"/>
       <span class="checkmark"></span>
     </label>
-    <br></br>
+    <hr></hr>
     </div>
   )
 }
