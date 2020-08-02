@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import App from "./state_components/App.js"
+import App2 from "./state_components/App2.js"
 
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App2 />, document.getElementById("root"));
