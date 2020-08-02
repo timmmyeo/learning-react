@@ -9,7 +9,14 @@ class App extends React.Component {
     this.state = {
       todoList: todosData
     }
+    this.handleChange = this.handleChange.bind(this);
   }
+
+  handleChange(id) {
+    this.state.todoList
+
+  }
+
   render() {
     const todoList = this.state.todoList.map(todo => <Item id={todo.id} todo={todo}/>)
     return (
