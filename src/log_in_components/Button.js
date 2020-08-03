@@ -6,7 +6,7 @@ class Button extends React.Component {
   }
   render() {
     return (
-      <button onClick={this.props.handleClick}>Log in / Log out</button>
+      <button onClick={this.props.handleClick}>{this.props.buttonText}</button>
     )
   }
 }
